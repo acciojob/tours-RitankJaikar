@@ -67,7 +67,7 @@ function App() {
 
   if (tours.length === 0) {
     return (
-      <main>
+      <main id="main">
         <h2>No Tours Left</h2>
         <button className="btn" onClick={() => setTours(data)}>
           Refresh
